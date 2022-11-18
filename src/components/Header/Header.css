@@ -1,0 +1,6 @@
+.header {
+  background-color: var(--color-water-10);
+  color: var(--color-granite);
+  padding: 20px 0px;
+  text-align: center;
+}
