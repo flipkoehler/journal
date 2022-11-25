@@ -3,4 +3,5 @@
   color: var(--color-granite);
   padding: 20px 0px;
   text-align: center;
+  text-transform: uppercase;
 }
