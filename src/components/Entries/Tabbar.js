@@ -1,10 +1,19 @@
+// import { dataEntries } from "./data";
+
 export default function Tabbar() {
   return (
-    //The tab bar has two tabs, each with a badge with the number of entries.
-
     <ul>
-      <li>All Entries</li>
-      <li>Favorites</li>
+      <li>
+        <a href="#">
+          All Entries <span class="count count-active">2</span>
+        </a>
+      </li>
+      <a href="#">
+        Favorites <span class="count count-inactive">1</span>
+      </a>
     </ul>
   );
 }
+
+// const countAllEntries = dataEntries.length;
+// const countFavorites = 1;

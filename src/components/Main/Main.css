@@ -1,0 +1,6 @@
+h2 {
+  text-align: center;
+  padding: 35px 20px;
+  color: var(--color-granite);
+  text-transform: uppercase;
+}

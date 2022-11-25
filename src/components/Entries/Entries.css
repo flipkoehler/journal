@@ -1,3 +1,68 @@
 .entries {
   padding: 20px;
+  position: relative;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+a:active {
+  color: var(--color-nemo);
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-granite);
+}
+
+.count {
+  padding: 1px 15px;
+  border-radius: 15px;
+  margin-left: 4px;
+}
+
+.count-inactive {
+  background-color: var(--color-water-10);
+  color: var(--color-granite);
+}
+
+.count-active {
+  background-color: var(--color-nemo);
+  color: var(--color-foam);
+}
+
+.star {
+  position: absolute;
+  right: 30px;
+}
+
+.date {
+  text-align: center;
+  margin: 10px 0 20px 0;
+}
+
+h3 {
+  color: var(--color-granite);
+}
+
+.content {
+  margin: 15px 0 15px 0;
+  color: var(--color-granite);
+  line-height: 1.4rem;
+  font-size: 0.9rem;
+}
+
+hr {
+  margin: 30px 0px;
+  color: var(--color-granite);
+}
+
+hr:last-child {
+  display: none;
 }
